@@ -38,3 +38,11 @@
 - You can use JS Fetch or Axios or CURL - POST 
 
 -------------
+
+
+### Gmail Limits
+
+- With Free Gmail Account : 500 [Messages/Recipients]
+- G suite  : Messages per day – 2000 and recipients per day – 10000. 
+
+-------------
