@@ -1,4 +1,4 @@
-### Free SMTP Mailer with PHP-Mailer
+### Free SMTP Mailer with PHP-Mailer SMTP
 
 - A small Guide For How to use PHP-Mailer with Gmail SMTP
 
