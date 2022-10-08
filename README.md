@@ -15,6 +15,7 @@
 ### How to Get Gmail SMTP Enabled on your Account
 - Open [this Link](https://myaccount.google.com/apppasswords "this Link") and enter your google password to login 
 - next follw the steps as same as in below video
+- save the new generated App password securly anywhere
 
 ![Demo](https://raw.githubusercontent.com/dev-itsarun/Free-SMTP-Mailer/main/assets/demo.gif "Demo")
 
