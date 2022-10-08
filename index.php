@@ -16,7 +16,7 @@ $http_origin = $_SERVER['HTTP_ORIGIN'];
 
 if (in_array($http_origin, $allowed_host)) {
 
-  if (isset($_REQUEST["recpt_email"]) && isset($_REQUEST["subject"]) && isset($_REQUEST["message"])) {
+  if (isset($_REQUEST["subject"]) && isset($_REQUEST["message"])) {
 
     $mail = new PHPMailer();
     $mail->IsSMTP();
@@ -29,7 +29,7 @@ if (in_array($http_origin, $allowed_host)) {
     $mail->Username   = $your_gmail;
     $mail->Password   = $app_password; //your app password
     $mail->IsHTML(true);
-    $mail->AddAddress($_REQUEST["recpt_email"]);
+    $mail->AddAddress($setmail);
     $mail->SetFrom($your_gmail, $your_name);
     $mail->Subject = $_REQUEST["subject"];
     $content = "<b>" . $_REQUEST["message"] . "</b>";

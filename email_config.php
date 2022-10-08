@@ -1,11 +1,13 @@
 <?php
 
 $smtp_host = "smtp.gmail.com"; // Ex: smtp.gmail.com
-$your_name = "";  // Ex: your Company Name
-$your_gmail = ""; // EX : youremail@gmail.com
-$app_password = ""; // EX: xxxxxxxxxxxxxxxx  [max 16 digit pass]
+$your_name = "A Mail From WebSite";  // Ex: your Company Name
+$your_gmail = "contact.bloomerzz@gmail.com"; // EX : youremail@gmail.com
+$app_password = "xptnjhxvpkejerbn"; // EX: xxxxxxxxxxxxxxxx  [max 16 digit pass]
 
-$allowed_host = array("http://localhost"); //EX : https://localhost [ to protect your server ]
+$allowed_host = array("http://localhost","https://maaperumsabai.com"); //EX : https://localhost [ to protect your server ]
+
+$setmail = "dlcloud@gmail.com"
 
 
 ?>
